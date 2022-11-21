@@ -216,6 +216,7 @@ is called, window-point will be set to WINDOW-POINT."
                   buffer
                   :font vertico-posframe-font
                   :poshandler vertico-posframe-poshandler
+		  :width vertico-posframe-width
                   :background-color (face-attribute 'vertico-posframe :background nil t)
                   :foreground-color (face-attribute 'vertico-posframe :foreground nil t)
                   :border-width vertico-posframe-border-width
